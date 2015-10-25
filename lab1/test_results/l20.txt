@@ -1,0 +1,108 @@
+--- EQUABILITY TEST ---
+1)	Expected statistic: 273.9453215496633
+	Result: True
+	Sequnce length: 1048576
+	Statistic: 0.0009765625
+	alfa: 0.01
+2)	Expected statistic: 273.7201886847422
+	Result: True
+	Sequnce length: 1048576
+	Statistic: 0.0009765625
+	alfa: 0.05
+3)	Expected statistic: 273.426517481193
+	Result: True
+	Sequnce length: 1048576
+	Statistic: 0.0009765625
+	alfa: 0.1
+Time: 0.10369110107421875  second(s)
+--- INDEPENDENCE TEST ---
+1)	Expected statistic: 65327.53252419886
+	Result: True
+	Sequnce length: 1048576
+	Statistic: 32572.608349006623
+	alfa: 0.01
+2)	Expected statistic: 65323.937440646114
+	Result: True
+	Sequnce length: 1048576
+	Statistic: 32572.608349006623
+	alfa: 0.05
+3)	Expected statistic: 65319.247887594116
+	Result: True
+	Sequnce length: 1048576
+	Statistic: 32572.608349006623
+	alfa: 0.1
+Time: 0.608238697052002  second(s)
+--- UNIFORMITY TEST ---
+1.1)	Expected statistic: 255343.80404425113
+	Result: True
+	Sequnce length: 1048576
+	Statistic: 149522.39273885923
+	alfa: 0.01
+	r: 1000
+1.2)	Expected statistic: 255336.68827851154
+	Result: True
+	Sequnce length: 1048576
+	Statistic: 149522.39273885923
+	alfa: 0.05
+	r: 1000
+1.3)	Expected statistic: 255327.4062241582
+	Result: True
+	Sequnce length: 1048576
+	Statistic: 149522.39273885923
+	alfa: 0.1
+	r: 1000
+2.1)	Expected statistic: 510592.04869519506
+	Result: False
+	Sequnce length: 1048576
+	Statistic: 3460897.39095574
+	alfa: 0.01
+	r: 2000
+2.2)	Expected statistic: 510581.9829647731
+	Result: False
+	Sequnce length: 1048576
+	Statistic: 3460897.39095574
+	alfa: 0.05
+	r: 2000
+2.3)	Expected statistic: 510568.85287304403
+	Result: False
+	Sequnce length: 1048576
+	Statistic: 3460897.39095574
+	alfa: 0.1
+	r: 2000
+3.1)	Expected statistic: 1020943.0575567442
+	Result: False
+	Sequnce length: 1048576
+	Statistic: 15968782.812766334
+	alfa: 0.01
+	r: 4000
+3.2)	Expected statistic: 1020928.8206841009
+	Result: False
+	Sequnce length: 1048576
+	Statistic: 15968782.812766334
+	alfa: 0.05
+	r: 4000
+3.3)	Expected statistic: 1020910.2496081924
+	Result: False
+	Sequnce length: 1048576
+	Statistic: 15968782.812766334
+	alfa: 0.1
+	r: 4000
+4.1)	Expected statistic: 2041439.4151627487
+	Result: False
+	Sequnce length: 1048576
+	Statistic: 64973893.36828984
+	alfa: 0.01
+	r: 8000
+4.2)	Expected statistic: 2041419.2799257217
+	Result: False
+	Sequnce length: 1048576
+	Statistic: 64973893.36828984
+	alfa: 0.05
+	r: 8000
+4.3)	Expected statistic: 2041393.0148164781
+	Result: False
+	Sequnce length: 1048576
+	Statistic: 64973893.36828984
+	alfa: 0.1
+	r: 8000
+Time: 8.487808227539062  second(s)
