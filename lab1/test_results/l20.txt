@@ -14,7 +14,7 @@
 	Sequnce length: 1048576
 	Statistic: 0.0009765625
 	alfa: 0.1
-Time: 0.10814166069030762  second(s)
+Time: 0.09764504432678223  second(s)
 --- INDEPENDENCE TEST ---
 1)	Expected statistic: 65327.53252419886
 	Result: True
@@ -31,7 +31,7 @@ Time: 0.10814166069030762  second(s)
 	Sequnce length: 1048576
 	Statistic: 32572.608349006623
 	alfa: 0.1
-Time: 0.5921549797058105  second(s)
+Time: 0.5676498413085938  second(s)
 --- UNIFORMITY TEST ---
 1.1)	Expected statistic: 261726.25028958922
 	Result: False
@@ -105,4 +105,4 @@ Time: 0.5921549797058105  second(s)
 	Statistic: 322033.32989153784
 	alfa: 0.1
 	r: 1050
-Time: 3.099428415298462  second(s)
+Time: 2.9808382987976074  second(s)

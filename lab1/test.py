@@ -30,8 +30,6 @@ def test(sequences, path):
         uni_res, uni_time = condition_of_character_uniformity(sequence, SEQUENCE_LENGTH, ALFAS, RS)
         write_test_results(uni_res, uni_time, res_path, 'uniformity')
 
-        # uni_res, uni_time = condition_of_character_uniformity(sequence, SEQUENCE_LENGTH, (0.1,), (1025,))
-        # print(gn, ':', uni_res[0][0]['Statistic'], uni_res[0][0]['Expected statistic'], uni_res[0][0]['Result'])
 
 def main():
     sequences_dict = {gname: sequence for gname, sequence in get_sequences(PATH_SEQUENCES)}
