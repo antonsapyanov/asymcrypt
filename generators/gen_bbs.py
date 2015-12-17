@@ -1,12 +1,10 @@
-from lib.utils import pow_mod
-
 __all__ = ['test_bbs_bit', 'test_bbs_byte', 'bbs_bit', 'bbs_byte']
 
 
 def bbs(r, p, q):
 	n = p * q
 	while True:
-		r = pow_mod(r, 2, n)
+		r = pow(r, 2, n)
 		yield r
 
 
